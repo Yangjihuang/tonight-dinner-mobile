@@ -373,7 +373,7 @@ function bindEvents() {
 async function init() {
   bindEvents();
   try {
-    recipes = await fetchJson("recipes.json");
+    recipes = Array.isArray(window.__RECIPES__) ? window.__RECIPES__ : await fetchJson("recipes.json");
   } catch {
     $("#recipeGrid").innerHTML = '<p class="empty-copy">菜单加载失败，请刷新重试。</p>';
     return;

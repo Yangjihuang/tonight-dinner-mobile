@@ -8,4 +8,6 @@
 - 多人下单最高的菜自动显示星标
 - 忌口按名字长期记录
 
-默认分享链接发布后记录在 `SHARE_LINK.md`。
+默认分享链接：<https://yangjihuang.github.io/tonight-dinner-mobile/>
+
+链接同时记录在 `SHARE_LINK.md`，以后更新页面时保持这个地址不变。
