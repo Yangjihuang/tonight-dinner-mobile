@@ -1,5 +1,188 @@
 [
   {
+    "id": "7a31a037-43a6-4e33-a038-2f45fa8a6577",
+    "name": "板栗焖鸡",
+    "description": "稍老的土鸡与板栗、香菇一同焖至酱香入味，鸡肉紧实，板栗粉糯，是秋冬餐桌上的温暖硬菜。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "江南家常",
+    "flavor_tags": [
+      "咸甜",
+      "酱香",
+      "浓郁"
+    ],
+    "calories_per_100g": 198,
+    "prep_minutes": 22,
+    "cook_minutes": 55,
+    "difficulty": "家常",
+    "cost_band": "约 55-85 元",
+    "allergens": [
+      "大豆",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含鸡肉"
+    ],
+    "image": "images/7a31a037-43a6-4e33-a038-2f45fa8a6577.webp"
+  },
+  {
+    "id": "56365cd2-90c2-4dd7-8b70-422e1a23f27a",
+    "name": "鸡胸肉蘑菇浓汤",
+    "description": "嫩鸡里脊、虾仁、蘑菇和玉米煮入牛奶浓汤，黑胡椒提香，搭配蒜香法棍温暖而有饱足感。",
+    "category": "汤羹",
+    "cuisine_region": "中国",
+    "cuisine_detail": "融合家常",
+    "flavor_tags": [
+      "奶香",
+      "咸鲜",
+      "浓郁"
+    ],
+    "calories_per_100g": 104,
+    "prep_minutes": 18,
+    "cook_minutes": 25,
+    "difficulty": "家常",
+    "cost_band": "约 35-55 元",
+    "allergens": [
+      "乳制品",
+      "甲壳类",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "海鲜"
+    ],
+    "image": "images/56365cd2-90c2-4dd7-8b70-422e1a23f27a.webp"
+  },
+  {
+    "id": "fe0b4b88-9c4c-4f7a-aaa1-157ae8d0713c",
+    "name": "橙汁排骨",
+    "description": "排骨煎香后以橙汁和生抽收成明亮的酸甜酱汁，最后撒上白芝麻，果香清新又下饭。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "创意家常",
+    "flavor_tags": [
+      "酸甜",
+      "果香",
+      "咸鲜"
+    ],
+    "calories_per_100g": 226,
+    "prep_minutes": 18,
+    "cook_minutes": 35,
+    "difficulty": "家常",
+    "cost_band": "约 35-55 元",
+    "allergens": [
+      "大豆",
+      "芝麻"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含猪肉"
+    ],
+    "image": "images/fe0b4b88-9c4c-4f7a-aaa1-157ae8d0713c.webp"
+  },
+  {
+    "id": "f1e3f6ab-769a-492f-8758-2813bcc7b7f8",
+    "name": "冬瓜蜜",
+    "description": "冬瓜慢煮取汁，以蜂蜜和老冰糖调出清甜滋味，滤清冰镇后入口清爽，是适合夏日的自制饮品。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "中式饮品",
+    "flavor_tags": [
+      "清甜",
+      "清爽"
+    ],
+    "calories_per_100g": 38,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "difficulty": "简单",
+    "cost_band": "约 10-18 元",
+    "allergens": [],
+    "dietary_tags": [
+      "素食"
+    ],
+    "image": "images/f1e3f6ab-769a-492f-8758-2813bcc7b7f8.webp"
+  },
+  {
+    "id": "d19070ee-043a-4651-9c1b-7e25a5569144",
+    "name": "葱烤大排",
+    "description": "猪大排裹蛋液和生粉煎香，再与大量小葱一同焖烧，酱汁咸甜浓郁，是经典的上海本帮家常味。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "上海本帮",
+    "flavor_tags": [
+      "咸甜",
+      "葱香",
+      "浓郁"
+    ],
+    "calories_per_100g": 238,
+    "prep_minutes": 18,
+    "cook_minutes": 28,
+    "difficulty": "家常",
+    "cost_band": "约 30-45 元",
+    "allergens": [
+      "鸡蛋",
+      "大豆"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含猪肉"
+    ],
+    "image": "images/d19070ee-043a-4651-9c1b-7e25a5569144.webp"
+  },
+  {
+    "id": "63ca51ad-acc5-465f-8cc3-cfdc136a2b55",
+    "name": "家烧梭子蟹",
+    "description": "梭子蟹切件后裹薄粉煎香，与五花肉、蛋液和葱姜蒜同烧，酱汁浓鲜，是江浙沿海风味家常菜。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "江浙家常",
+    "flavor_tags": [
+      "咸鲜",
+      "浓香",
+      "鲜"
+    ],
+    "calories_per_100g": 176,
+    "prep_minutes": 22,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "约 70-120 元",
+    "allergens": [
+      "甲壳类",
+      "鸡蛋"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "海鲜",
+      "含猪肉"
+    ],
+    "image": "images/63ca51ad-acc5-465f-8cc3-cfdc136a2b55.webp"
+  },
+  {
+    "id": "2d4ba285-f0bd-47ec-9f4b-f6c11460abb6",
+    "name": "番茄炖牛腩",
+    "description": "牛腩与番茄、洋葱和根茎蔬菜慢炖，猕猴桃帮助软化肉质，多种香料带出酸香浓郁的暖胃汤汁。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "中式家常",
+    "flavor_tags": [
+      "酸香",
+      "咸鲜",
+      "浓郁"
+    ],
+    "calories_per_100g": 146,
+    "prep_minutes": 25,
+    "cook_minutes": 95,
+    "difficulty": "家常",
+    "cost_band": "约 65-95 元",
+    "allergens": [],
+    "dietary_tags": [
+      "高蛋白",
+      "含牛肉"
+    ],
+    "image": "images/2d4ba285-f0bd-47ec-9f4b-f6c11460abb6.webp"
+  },
+  {
     "id": "86569fe6-2531-470f-ae0d-06a1c725401a",
     "name": "百香果红酸汤风味锅",
     "description": "以番茄与百香果增添果酸香气的红酸汤风味锅，搭配薄切牛肉、菌菇、豆腐、魔芋丝和多种蔬菜。",
