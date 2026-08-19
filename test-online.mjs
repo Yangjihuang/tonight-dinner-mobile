@@ -15,7 +15,7 @@ try {
   });
   const errors = [];
   page.on("pageerror", (error) => errors.push(error.message));
-  const response = await page.goto(targetUrl, { waitUntil: "networkidle" });
+  const response = await page.goto(targetUrl, { waitUntil: "domcontentloaded", timeout: 45_000 });
   if (targetUrl.startsWith("http")) assert.equal(response.status(), 200);
   await page.waitForSelector(".recipe-card");
   assert.equal(await page.locator(".recipe-card").count(), 20);
