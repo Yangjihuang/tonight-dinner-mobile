@@ -1,0 +1,356 @@
+[
+  {
+    "id": "86569fe6-2531-470f-ae0d-06a1c725401a",
+    "name": "百香果红酸汤风味锅",
+    "description": "以番茄与百香果增添果酸香气的红酸汤风味锅，搭配薄切牛肉、菌菇、豆腐、魔芋丝和多种蔬菜。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "贵州风味",
+    "flavor_tags": [
+      "酸",
+      "辣",
+      "咸鲜"
+    ],
+    "calories_per_100g": 92,
+    "prep_minutes": 20,
+    "cook_minutes": 25,
+    "difficulty": "家常",
+    "cost_band": "约 60-90 元",
+    "allergens": [
+      "大豆"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含牛肉"
+    ],
+    "image": "images/86569fe6-2531-470f-ae0d-06a1c725401a.webp"
+  },
+  {
+    "id": "b8265101-29b5-452a-b378-033b2d5f3f7b",
+    "name": "MISO味增汤",
+    "description": "昆布与木鱼花高汤调入味增，加入豆腐、菌菇、海带结、南瓜、秋葵和虾的丰富日式家常汤。",
+    "category": "汤羹",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式家常",
+    "flavor_tags": [
+      "咸鲜",
+      "清淡",
+      "鲜"
+    ],
+    "calories_per_100g": 48,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "约 25-40 元",
+    "allergens": [
+      "大豆",
+      "甲壳类",
+      "鱼类"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "海鲜"
+    ],
+    "image": "images/b8265101-29b5-452a-b378-033b2d5f3f7b.webp"
+  },
+  {
+    "id": "b56658d9-a264-4bf1-90e0-18cdc2072ca5",
+    "name": "寿喜锅",
+    "description": "肥牛片与娃娃菜、蓬蒿苗、菌菇、洋葱、魔芋丝等在甘甜酱汁中煮制，搭配可生食鸡蛋的日式寿喜烧。",
+    "category": "荤菜",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式锅物",
+    "flavor_tags": [
+      "甜",
+      "咸鲜",
+      "香浓"
+    ],
+    "calories_per_100g": 128,
+    "prep_minutes": 25,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "约 70-110 元",
+    "allergens": [
+      "鸡蛋",
+      "大豆",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含牛肉"
+    ],
+    "image": "images/b56658d9-a264-4bf1-90e0-18cdc2072ca5.webp"
+  },
+  {
+    "id": "46ba5dfb-4aa9-4156-91f1-5d6d3dff2101",
+    "name": "酸奶牛油果吐司",
+    "description": "种籽酸种吐司铺希腊酸奶、牛油果和布拉塔奶酪，再搭配流心水波蛋的开放式早餐吐司。",
+    "category": "主食",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式轻食",
+    "flavor_tags": [
+      "清淡",
+      "香浓",
+      "咸鲜"
+    ],
+    "calories_per_100g": 214,
+    "prep_minutes": 15,
+    "cook_minutes": 5,
+    "difficulty": "简单",
+    "cost_band": "约 25-40 元",
+    "allergens": [
+      "乳制品",
+      "鸡蛋",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "蛋奶素",
+      "高蛋白"
+    ],
+    "image": "images/46ba5dfb-4aa9-4156-91f1-5d6d3dff2101.webp"
+  },
+  {
+    "id": "3f0d0619-6606-4c30-9367-b993c8ef6e13",
+    "name": "白象冬阴功汤",
+    "description": "椰浆增添柔和奶香的泰式冬阴功海鲜汤，酸辣汤底里有大虾、鱿鱼、贝类、豆腐和菌菇。",
+    "category": "汤羹",
+    "cuisine_region": "东南亚",
+    "cuisine_detail": "泰式",
+    "flavor_tags": [
+      "酸",
+      "辣",
+      "香浓"
+    ],
+    "calories_per_100g": 86,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "约 60-100 元",
+    "allergens": [
+      "甲壳类",
+      "贝类",
+      "鱼类",
+      "大豆"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "海鲜"
+    ],
+    "image": "images/3f0d0619-6606-4c30-9367-b993c8ef6e13.webp"
+  },
+  {
+    "id": "35708da8-246f-43c8-89e6-aeb32c68f37d",
+    "name": "日式茶渍饭",
+    "description": "热米饭铺三文鱼、海苔香松和木鱼花，淋入鲣鱼高汤，以少量芥末和味淋提味的日式茶泡饭。",
+    "category": "主食",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式家常",
+    "flavor_tags": [
+      "咸鲜",
+      "清淡",
+      "鲜"
+    ],
+    "calories_per_100g": 139,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "difficulty": "简单",
+    "cost_band": "约 25-45 元",
+    "allergens": [
+      "鱼类",
+      "大豆",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "海鲜"
+    ],
+    "image": "images/35708da8-246f-43c8-89e6-aeb32c68f37d.webp"
+  },
+  {
+    "id": "8364d4c2-c2ac-4cce-b2d3-89c1b0e8d9c5",
+    "name": "辣椒小炒肉",
+    "description": "青红螺丝椒与猪肉片大火快炒，以豆豉酱增添发酵香气，香辣下饭的湘味家常菜。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "湘菜",
+    "flavor_tags": [
+      "辣",
+      "咸鲜",
+      "香浓"
+    ],
+    "calories_per_100g": 196,
+    "prep_minutes": 12,
+    "cook_minutes": 8,
+    "difficulty": "家常",
+    "cost_band": "约 30-45 元",
+    "allergens": [
+      "大豆"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含猪肉"
+    ],
+    "image": "images/8364d4c2-c2ac-4cce-b2d3-89c1b0e8d9c5.webp"
+  },
+  {
+    "id": "59e50aec-40e7-4bbe-b395-79cd26b3774a",
+    "name": "酸奶无花果吐司",
+    "description": "种籽酸种吐司搭配希腊酸奶、鲜无花果、布拉塔奶酪和水波蛋，酸甜奶香平衡的夏日早餐。",
+    "category": "主食",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式轻食",
+    "flavor_tags": [
+      "酸甜",
+      "清淡",
+      "香浓"
+    ],
+    "calories_per_100g": 205,
+    "prep_minutes": 12,
+    "cook_minutes": 5,
+    "difficulty": "简单",
+    "cost_band": "约 28-45 元",
+    "allergens": [
+      "乳制品",
+      "鸡蛋",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "蛋奶素",
+      "高蛋白"
+    ],
+    "image": "images/59e50aec-40e7-4bbe-b395-79cd26b3774a.webp"
+  },
+  {
+    "id": "01e2839f-0fa2-4d9f-96d4-20823d8dbb49",
+    "name": "蒸三鲜",
+    "description": "猪肉糜、豌豆和鹿茸菇拌入豆豉酱后蒸熟，以胡麻油和白胡椒提香的中式家常蒸菜。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "中式家常",
+    "flavor_tags": [
+      "咸鲜",
+      "清淡",
+      "香浓"
+    ],
+    "calories_per_100g": 142,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "约 25-40 元",
+    "allergens": [
+      "大豆",
+      "芝麻"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含猪肉"
+    ],
+    "image": "images/01e2839f-0fa2-4d9f-96d4-20823d8dbb49.webp"
+  },
+  {
+    "id": "8d6a79a1-9549-44d8-80b3-08b338e19a6d",
+    "name": "初夏空豆",
+    "description": "嫩蚕豆以胡麻油、芥末、木鱼花、鱼露、芝麻盐和鲣鱼汁调味，清新鲜香的日式初夏小菜。",
+    "category": "素菜",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式小菜",
+    "flavor_tags": [
+      "清淡",
+      "咸鲜",
+      "鲜"
+    ],
+    "calories_per_100g": 112,
+    "prep_minutes": 10,
+    "cook_minutes": 8,
+    "difficulty": "简单",
+    "cost_band": "约 15-25 元",
+    "allergens": [
+      "鱼类",
+      "芝麻"
+    ],
+    "dietary_tags": [
+      "高纤维",
+      "含鱼类调味"
+    ],
+    "image": "images/8d6a79a1-9549-44d8-80b3-08b338e19a6d.webp"
+  },
+  {
+    "id": "70131c5e-e1e1-49c9-8489-a3f0a1316388",
+    "name": "玉竹排骨冬瓜汤",
+    "description": "排骨、冬瓜与玉竹慢炖成清澈温润的中式家常汤，汤味清甜，适合作为日常餐桌汤品。",
+    "category": "汤羹",
+    "cuisine_region": "中国",
+    "cuisine_detail": "广式家常",
+    "flavor_tags": [
+      "清淡",
+      "咸鲜",
+      "鲜"
+    ],
+    "calories_per_100g": 72,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "difficulty": "家常",
+    "cost_band": "约 30-50 元",
+    "allergens": [],
+    "dietary_tags": [
+      "高蛋白",
+      "含猪肉"
+    ],
+    "image": "images/70131c5e-e1e1-49c9-8489-a3f0a1316388.webp"
+  },
+  {
+    "id": "9cc71372-5ae3-4e62-a359-1ed57ae43f9a",
+    "name": "麻婆豆腐",
+    "description": "嫩豆腐与猪肉末以郫县豆瓣酱、豆豉、姜蒜、辣椒和花椒烧制，麻辣鲜香的经典川味家常菜。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "川菜",
+    "flavor_tags": [
+      "麻",
+      "辣",
+      "咸鲜"
+    ],
+    "calories_per_100g": 156,
+    "prep_minutes": 15,
+    "cook_minutes": 15,
+    "difficulty": "家常",
+    "cost_band": "约 20-35 元",
+    "allergens": [
+      "大豆",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含猪肉"
+    ],
+    "image": "images/9cc71372-5ae3-4e62-a359-1ed57ae43f9a.webp"
+  },
+  {
+    "id": "b0c5d343-307d-42cd-b5a5-72104ba1a08d",
+    "name": "牛丼饭",
+    "description": "日式家常牛肉盖饭，薄切牛肉与洋葱以咸甜酱汁煮制，盖在热米饭上并搭配鸡蛋。",
+    "category": "主食",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式家常",
+    "flavor_tags": [
+      "咸鲜",
+      "甜",
+      "香浓"
+    ],
+    "calories_per_100g": 176,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "difficulty": "家常",
+    "cost_band": "约 35-55 元",
+    "allergens": [
+      "鸡蛋",
+      "大豆",
+      "小麦"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "含牛肉"
+    ],
+    "image": "images/b0c5d343-307d-42cd-b5a5-72104ba1a08d.webp"
+  }
+]

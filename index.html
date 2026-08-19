@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#f7f3eb">
+  <meta name="description" content="今晚吃什么——手机多人点单">
+  <title>今晚吃什么</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div>
+      <p class="eyebrow">今天饿了么</p>
+      <h1>今晚吃什么</h1>
+      <p id="todayText" class="today"></p>
+    </div>
+    <button id="shareButton" class="icon-button" type="button">分享</button>
+  </header>
+
+  <main>
+    <section class="identity-bar" aria-label="当前点单人">
+      <div>
+        <span class="muted">当前点单人</span>
+        <strong id="currentMember">请选择</strong>
+      </div>
+      <button id="switchMember" class="text-button" type="button">切换</button>
+    </section>
+
+    <div id="connectionNotice" class="connection hidden" role="status"></div>
+
+    <section class="panel calendar-panel">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">点单足迹</p>
+          <h2 id="calendarTitle">本月</h2>
+        </div>
+        <div class="month-actions">
+          <button id="previousMonth" class="round-button" type="button" aria-label="上个月">‹</button>
+          <button id="nextMonth" class="round-button" type="button" aria-label="下个月">›</button>
+        </div>
+      </div>
+      <div class="weekdays" aria-hidden="true"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+      <div id="calendarGrid" class="calendar-grid"></div>
+      <p class="calendar-note"><span></span> 有人下过单</p>
+    </section>
+
+    <section class="menu-section">
+      <div class="section-heading menu-heading">
+        <div>
+          <p class="kicker">今日菜单</p>
+          <h2>像在餐厅一样点</h2>
+        </div>
+        <p id="menuSummary" class="menu-summary">正在上菜…</p>
+      </div>
+      <div id="recipeGrid" class="recipe-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="panel dietary-panel">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">长期记录</p>
+          <h2>谁有忌口</h2>
+        </div>
+      </div>
+      <p class="section-copy">登记后会一直留在这个点单链接里，下次来还看得到。</p>
+      <div id="dietaryList" class="dietary-list"></div>
+      <form id="dietaryForm" class="dietary-form">
+        <label>名字<input id="dietaryName" maxlength="20" autocomplete="name" placeholder="例如：小王" required></label>
+        <label>忌口<input id="dietaryText" maxlength="80" placeholder="例如：不吃香菜、花生过敏" required></label>
+        <button type="submit">保存忌口</button>
+      </form>
+    </section>
+  </main>
+
+  <div class="sticky-order" aria-label="下单栏">
+    <div><strong id="selectedCount">0</strong><span> 道已选</span></div>
+    <button id="orderButton" type="button" disabled>下单</button>
+  </div>
+
+  <div id="identityOverlay" class="overlay hidden" role="dialog" aria-modal="true" aria-labelledby="identityTitle">
+    <div class="identity-sheet">
+      <p class="kicker">先告诉我们你是谁</p>
+      <h2 id="identityTitle">选择点单人</h2>
+      <div id="memberChoices" class="member-choices"></div>
+      <div class="divider"><span>或者新朋友加入</span></div>
+      <form id="joinForm" class="join-form">
+        <input id="joinName" maxlength="20" autocomplete="name" placeholder="输入你的名字" required>
+        <button type="submit">进入点单</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="toast" class="toast hidden" role="status"></div>
+  <script src="app.js"></script>
+</body>
+</html>

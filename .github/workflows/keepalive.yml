@@ -1,0 +1,17 @@
+name: Keep shared ordering data active
+
+on:
+  schedule:
+    - cron: "17 3 */20 * *"
+  workflow_dispatch:
+
+jobs:
+  keepalive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Touch shared data without changing orders
+        run: |
+          curl --fail --silent --show-error \
+            -X PATCH "https://mantledb.sh/v2/tonight-dinner-7fc44f0ce3c74618/members/damon" \
+            -H "Content-Type: application/json" \
+            -d "{\"heartbeat\":\"$(date -u +%FT%TZ)\"}"
