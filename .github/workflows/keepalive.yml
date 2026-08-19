@@ -12,6 +12,6 @@ jobs:
       - name: Touch shared data without changing orders
         run: |
           curl --fail --silent --show-error \
-            -X PATCH "https://mantledb.sh/v2/tonight-dinner-7fc44f0ce3c74618/members/damon" \
+            -X POST "https://mantledb.sh/v2/tonight-dinner-7fc44f0ce3c74618/healthcheck" \
             -H "Content-Type: application/json" \
             -d "{\"heartbeat\":\"$(date -u +%FT%TZ)\"}"

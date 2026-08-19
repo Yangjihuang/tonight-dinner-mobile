@@ -33,6 +33,10 @@ try {
   assert.equal(await page.locator("#orderButton").isEnabled(), true);
   const apiStatus = await page.evaluate(async () => (await fetch("https://mantledb.sh/v2/list/tonight-dinner-7fc44f0ce3c74618", { cache: "no-store" })).status);
   assert.equal(apiStatus, 200);
+  const writeStatus = await page.evaluate(async () => (await fetch("https://mantledb.sh/v2/tonight-dinner-7fc44f0ce3c74618/healthcheck", {
+    method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ checkedAt: new Date().toISOString() })
+  })).status);
+  assert.equal(writeStatus, 200);
   assert.deepEqual(errors, []);
   await page.screenshot({ path: "C:\\Users\\90761\\Documents\\Codex\\2026-08-18\\new-chat-2\\outputs\\今晚吃什么-手机预览.png", fullPage: true });
   console.log(`target checks passed (${targetUrl}): WeChat UA, 13/13 images, live shared API, 390px no overflow, ordering interaction`);
