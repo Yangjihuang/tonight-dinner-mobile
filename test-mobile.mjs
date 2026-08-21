@@ -37,7 +37,7 @@ try {
     return route.fulfill({ json: { name: "damon", dietary: "", orderDate: "", recipeIds: [], activityDates: [], updatedAt: "" } });
   });
   await page.goto("http://127.0.0.1:4177", { waitUntil: "networkidle" });
-  assert.equal(await page.locator(".recipe-card").count(), 20);
+  assert.equal(await page.locator(".recipe-card").count(), 47);
   assert.equal(await page.locator("#orderButton").textContent(), "下单");
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true);
   await page.getByRole("button", { name: "damon" }).click();
@@ -46,12 +46,12 @@ try {
     await images.nth(index).scrollIntoViewIfNeeded();
   }
   await page.waitForFunction(() => [...document.querySelectorAll(".recipe-image")].every((image) => image.complete && image.naturalWidth > 0));
-  assert.equal(await images.count(), 20);
+  assert.equal(await images.count(), 47);
   await page.locator("[data-recipe-id]").first().click();
   assert.equal(await page.locator("#selectedCount").textContent(), "1");
   assert.equal(await page.locator("#orderButton").isEnabled(), true);
   await page.screenshot({ path: "mobile-preview.png", fullPage: true });
-  console.log("mobile checks passed: 20 dishes, 20/20 images, 390px no overflow, identity and ordering controls work");
+  console.log("mobile checks passed: 47 dishes, 47/47 images, 390px no overflow, identity and ordering controls work");
 } finally {
   await browser.close();
   server.close();

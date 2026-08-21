@@ -18,7 +18,7 @@ try {
   const response = await page.goto(targetUrl, { waitUntil: "domcontentloaded", timeout: 45_000 });
   if (targetUrl.startsWith("http")) assert.equal(response.status(), 200);
   await page.waitForSelector(".recipe-card");
-  assert.equal(await page.locator(".recipe-card").count(), 20);
+  assert.equal(await page.locator(".recipe-card").count(), 47);
   assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true);
   assert.match(await page.title(), /今晚吃什么/);
   const member = page.getByRole("button", { name: "damon" });
@@ -28,7 +28,7 @@ try {
     await images.nth(index).scrollIntoViewIfNeeded();
   }
   await page.waitForFunction(() => [...document.querySelectorAll(".recipe-image")].every((image) => image.complete && image.naturalWidth > 0));
-  assert.equal(await images.count(), 20);
+  assert.equal(await images.count(), 47);
   await page.locator("[data-recipe-id]").first().click();
   assert.equal(await page.locator("#orderButton").isEnabled(), true);
   const apiStatus = await page.evaluate(async () => (await fetch("https://mantledb.sh/v2/list/tonight-dinner-7fc44f0ce3c74618", { cache: "no-store" })).status);
@@ -39,7 +39,7 @@ try {
   assert.equal(writeStatus, 200);
   assert.deepEqual(errors, []);
   await page.screenshot({ path: "C:\\Users\\90761\\Documents\\Codex\\2026-08-18\\new-chat-2\\outputs\\今晚吃什么-手机预览.png", fullPage: true });
-  console.log(`target checks passed (${targetUrl}): WeChat UA, 20/20 images, live shared API, 390px no overflow, ordering interaction`);
+  console.log(`target checks passed (${targetUrl}): WeChat UA, 47/47 images, live shared API, 390px no overflow, ordering interaction`);
 } finally {
   await browser.close();
 }

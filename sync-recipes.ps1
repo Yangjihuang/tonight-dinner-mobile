@@ -5,8 +5,8 @@ $response = Invoke-WebRequest -Uri $apiUrl -Method Get -UseBasicParsing
 $state = $response.Content | ConvertFrom-Json
 $recipes = @($state.recipeLibrary)
 
-if ($recipes.Count -ne 20) {
-  throw "Expected 20 published recipes, received $($recipes.Count)."
+if ($recipes.Count -ne 47) {
+  throw "Expected 47 published recipes, received $($recipes.Count)."
 }
 if ($recipes | Where-Object { [string]::IsNullOrWhiteSpace($_.id) -or [string]::IsNullOrWhiteSpace($_.name) }) {
   throw 'Refusing to write recipes.json because a recipe has an empty id or name.'
@@ -37,8 +37,8 @@ $target = Join-Path $PSScriptRoot 'recipes.json'
 [IO.File]::WriteAllText($target, $json, [Text.UTF8Encoding]::new($false))
 
 $roundTrip = Get-Content -LiteralPath $target -Raw | ConvertFrom-Json
-if (@($roundTrip).Count -ne 20) {
+if (@($roundTrip).Count -ne 47) {
   throw 'recipes.json failed round-trip validation.'
 }
 
-Write-Output 'recipes.json updated and validated: 20 dishes'
+Write-Output 'recipes.json updated and validated: 47 dishes'

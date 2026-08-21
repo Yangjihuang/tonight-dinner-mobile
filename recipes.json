@@ -1,5 +1,626 @@
 [
   {
+    "id": "video-import-28",
+    "name": "白菜萝卜姜汤",
+    "description": "白菜叶、白萝卜和姜片煮成清爽家常蔬菜汤。",
+    "category": "汤羹",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "清淡",
+      "姜香"
+    ],
+    "calories_per_100g": 15,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-28.webp"
+  },
+  {
+    "id": "video-import-27",
+    "name": "朱雀汤",
+    "description": "滚烫米汤冲入打散蛋黄，形成细嫩蛋花和米香汤底。",
+    "category": "汤羹",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "清淡",
+      "米香"
+    ],
+    "calories_per_100g": 45,
+    "prep_minutes": 5,
+    "cook_minutes": 7,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "蛋"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-27.webp"
+  },
+  {
+    "id": "video-import-26d",
+    "name": "莲藕雪梨银耳糊",
+    "description": "莲藕、雪梨与银耳打成清甜细滑的温饮。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "清甜",
+      "谷香"
+    ],
+    "calories_per_100g": 38,
+    "prep_minutes": 5,
+    "cook_minutes": 23,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-26d.webp"
+  },
+  {
+    "id": "video-import-26c",
+    "name": "莲藕花生糯米糊",
+    "description": "莲藕、花生与糯米打成浓香顺滑的熟米糊。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "清甜",
+      "谷香"
+    ],
+    "calories_per_100g": 55,
+    "prep_minutes": 5,
+    "cook_minutes": 23,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "花生"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-26c.webp"
+  },
+  {
+    "id": "video-import-26b",
+    "name": "莲藕小米苹果糊",
+    "description": "莲藕、小米与苹果打成带自然果甜的温热米糊。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "清甜",
+      "谷香"
+    ],
+    "calories_per_100g": 40,
+    "prep_minutes": 5,
+    "cook_minutes": 23,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-26b.webp"
+  },
+  {
+    "id": "video-import-26a",
+    "name": "莲藕胡萝卜大米糊",
+    "description": "莲藕、胡萝卜与大米打成细滑清甜的熟米糊。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "清甜",
+      "谷香"
+    ],
+    "calories_per_100g": 35,
+    "prep_minutes": 5,
+    "cook_minutes": 23,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-26a.webp"
+  },
+  {
+    "id": "video-import-23",
+    "name": "枇杷酸奶慕斯",
+    "description": "枇杷糖水与酸奶慕斯组合成清爽果香冷藏甜点。",
+    "category": "甜点",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "酸甜",
+      "奶香"
+    ],
+    "calories_per_100g": 180,
+    "prep_minutes": 40,
+    "cook_minutes": 35,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "奶",
+      "蛋",
+      "明胶"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-23.webp"
+  },
+  {
+    "id": "video-import-22",
+    "name": "熟醉六月黄",
+    "description": "六月黄蒸熟后浸入带香料、柠檬和红枣的醉卤中。",
+    "category": "海鲜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "酒香",
+      "咸鲜"
+    ],
+    "calories_per_100g": 150,
+    "prep_minutes": 25,
+    "cook_minutes": 35,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "甲壳类",
+      "酒精"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-22.webp"
+  },
+  {
+    "id": "video-import-21",
+    "name": "百合薏米银耳饮",
+    "description": "百合、薏米、茯苓、山药与鲜银耳打成细滑温饮。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "清淡",
+      "谷香"
+    ],
+    "calories_per_100g": 45,
+    "prep_minutes": 10,
+    "cook_minutes": 25,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-21.webp"
+  },
+  {
+    "id": "video-import-20",
+    "name": "咸蛋黄鸡翅",
+    "description": "鸡翅煎至金黄后裹上炒松的咸蛋黄沙。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "咸鲜",
+      "酥香"
+    ],
+    "calories_per_100g": 240,
+    "prep_minutes": 15,
+    "cook_minutes": 25,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "蛋",
+      "大豆",
+      "蚝类"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-20.webp"
+  },
+  {
+    "id": "video-import-19",
+    "name": "油柑香茅青柠饮",
+    "description": "画面显示一类青绿色小果、香茅/姜和青柠搅打过滤后加冰。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "酸涩",
+      "清香"
+    ],
+    "calories_per_100g": 35,
+    "prep_minutes": 8,
+    "cook_minutes": 2,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-19.webp"
+  },
+  {
+    "id": "video-import-18",
+    "name": "辣奶油炖排骨",
+    "description": "长条排骨在复合辣酱和黄油中焖至脱骨，浓辣滑润。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "香辣",
+      "奶香"
+    ],
+    "calories_per_100g": 240,
+    "prep_minutes": 20,
+    "cook_minutes": 50,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "奶",
+      "大豆"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-18.webp"
+  },
+  {
+    "id": "video-import-17",
+    "name": "泰式椰香鸡汤",
+    "description": "鸡腿、番茄与香茅等香料煮成酸香柔和的椰奶汤。",
+    "category": "汤羹",
+    "cuisine_region": "东南亚",
+    "cuisine_detail": "泰式",
+    "flavor_tags": [
+      "酸香",
+      "椰香"
+    ],
+    "calories_per_100g": 95,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "椰子"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-17.webp"
+  },
+  {
+    "id": "video-import-16",
+    "name": "椰香咖喱鸡腿",
+    "description": "去骨鸡腿与洋葱煎香，加入咖喱和椰奶焖煮。",
+    "category": "肉菜",
+    "cuisine_region": "东南亚",
+    "cuisine_detail": "泰式风味",
+    "flavor_tags": [
+      "咖喱",
+      "椰香"
+    ],
+    "calories_per_100g": 165,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "椰子"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-16.webp"
+  },
+  {
+    "id": "video-import-15",
+    "name": "橙子酱",
+    "description": "鲜橙汁和细橙皮屑小火熬成明亮果酱。",
+    "category": "酱料",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "酸甜",
+      "柑橘香"
+    ],
+    "calories_per_100g": 170,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-15.webp"
+  },
+  {
+    "id": "video-import-14",
+    "name": "泰式酸辣虾",
+    "description": "鲜虾拌入现打的泰式酸辣酱，蒜、辣椒、香菜与柠檬香突出。",
+    "category": "海鲜",
+    "cuisine_region": "东南亚",
+    "cuisine_detail": "泰式",
+    "flavor_tags": [
+      "酸辣",
+      "清香"
+    ],
+    "calories_per_100g": 115,
+    "prep_minutes": 15,
+    "cook_minutes": 10,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "甲壳类",
+      "鱼类"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-14.webp"
+  },
+  {
+    "id": "video-import-13",
+    "name": "苹果柠檬姜汁",
+    "description": "苹果、柠檬和少量姜加水现打，酸甜中带轻微姜香。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "果香",
+      "微辛"
+    ],
+    "calories_per_100g": 45,
+    "prep_minutes": 5,
+    "cook_minutes": 3,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-13.webp"
+  },
+  {
+    "id": "video-import-12",
+    "name": "龙井啤酒红烧肉",
+    "description": "五花肉煸出油脂后，以茶香啤酒和酱料慢焖，桂花点香。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "酱香",
+      "微甜"
+    ],
+    "calories_per_100g": 320,
+    "prep_minutes": 20,
+    "cook_minutes": 60,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "麸质",
+      "大豆",
+      "酒精残留可能"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-12.webp"
+  },
+  {
+    "id": "video-import-10",
+    "name": "辣炖咖喱牛肉",
+    "description": "牛腩搭配根茎菜、复合香料和椰奶慢炖，汤汁浓郁。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "香辣",
+      "咖喱"
+    ],
+    "calories_per_100g": 150,
+    "prep_minutes": 25,
+    "cook_minutes": 75,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "奶",
+      "椰子"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-10.webp"
+  },
+  {
+    "id": "video-import-09",
+    "name": "巴西柠檬水",
+    "description": "青柠连皮短时搅打、过滤后加入炼乳和冰块，呈淡乳绿色。",
+    "category": "饮品",
+    "cuisine_region": "中国",
+    "cuisine_detail": "巴西风味",
+    "flavor_tags": [
+      "酸甜",
+      "清爽"
+    ],
+    "calories_per_100g": 70,
+    "prep_minutes": 8,
+    "cook_minutes": 2,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "奶"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-09.webp"
+  },
+  {
+    "id": "video-import-08",
+    "name": "酸梅排骨",
+    "description": "排骨配酸梅汁、姜蒜焖至浓亮，酸甜开胃。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "酸甜",
+      "酱香"
+    ],
+    "calories_per_100g": 220,
+    "prep_minutes": 15,
+    "cook_minutes": 35,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "大豆"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-08.webp"
+  },
+  {
+    "id": "video-import-07",
+    "name": "日式奶油炖菜",
+    "description": "鸡腿与土豆、胡萝卜、洋葱和西兰花煮成日式白色奶油炖菜。",
+    "category": "汤羹",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式",
+    "flavor_tags": [
+      "奶香",
+      "温和"
+    ],
+    "calories_per_100g": 125,
+    "prep_minutes": 15,
+    "cook_minutes": 30,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "奶",
+      "麸质"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-07.webp"
+  },
+  {
+    "id": "video-import-05",
+    "name": "江西辣鸡翅",
+    "description": "鸡翅对半切后煎香，与蒜末和红绿辣椒快速翻炒入味。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "鲜辣",
+      "蒜香"
+    ],
+    "calories_per_100g": 210,
+    "prep_minutes": 15,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "大豆",
+      "蚝类"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-05.webp"
+  },
+  {
+    "id": "video-import-04",
+    "name": "辣咖喱牛肉乌冬面",
+    "description": "腌制牛里脊与洋葱炒香，加入牛奶咖喱和乌冬面煮至挂汁。",
+    "category": "主食",
+    "cuisine_region": "日本",
+    "cuisine_detail": "日式",
+    "flavor_tags": [
+      "香辣",
+      "浓郁"
+    ],
+    "calories_per_100g": 170,
+    "prep_minutes": 10,
+    "cook_minutes": 15,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "麸质",
+      "大豆",
+      "奶"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-04.webp"
+  },
+  {
+    "id": "video-import-03",
+    "name": "法式奶油苹果鸡",
+    "description": "煎香鸡腿配焦香苹果，以苹果汁和奶油炖成柔和酱汁。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "法式风味",
+    "flavor_tags": [
+      "奶香",
+      "果香"
+    ],
+    "calories_per_100g": 155,
+    "prep_minutes": 20,
+    "cook_minutes": 35,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "奶",
+      "麸质"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-03.webp"
+  },
+  {
+    "id": "video-import-02",
+    "name": "香蕉酸奶小松饼",
+    "description": "香蕉面糊挤成迷你松饼，煎熟后配原味酸奶。",
+    "category": "早餐甜点",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "香甜",
+      "奶香"
+    ],
+    "calories_per_100g": 165,
+    "prep_minutes": 10,
+    "cook_minutes": 10,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [
+      "蛋",
+      "奶",
+      "麸质"
+    ],
+    "dietary_tags": [],
+    "image": "images/video-import-02.webp"
+  },
+  {
+    "id": "video-import-01",
+    "name": "辣咖喱炖排骨",
+    "description": "排骨与土豆、胡萝卜在辛香咖喱汤汁中炖至软烂。",
+    "category": "肉菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "",
+    "flavor_tags": [
+      "香辣",
+      "咖喱"
+    ],
+    "calories_per_100g": 135,
+    "prep_minutes": 15,
+    "cook_minutes": 60,
+    "difficulty": "家常",
+    "cost_band": "家常",
+    "allergens": [],
+    "dietary_tags": [],
+    "image": "images/video-import-01.webp"
+  },
+  {
+    "id": "63ca51ad-acc5-465f-8cc3-cfdc136a2b55",
+    "name": "家烧梭子蟹",
+    "description": "梭子蟹切件后裹薄粉煎香，与五花肉、蛋液和葱姜蒜同烧，酱汁浓鲜，是江浙沿海风味家常菜。",
+    "category": "荤菜",
+    "cuisine_region": "中国",
+    "cuisine_detail": "江浙家常",
+    "flavor_tags": [
+      "咸鲜",
+      "浓香",
+      "鲜"
+    ],
+    "calories_per_100g": 176,
+    "prep_minutes": 22,
+    "cook_minutes": 20,
+    "difficulty": "家常",
+    "cost_band": "约 70-120 元",
+    "allergens": [
+      "甲壳类",
+      "鸡蛋"
+    ],
+    "dietary_tags": [
+      "高蛋白",
+      "海鲜",
+      "含猪肉"
+    ],
+    "image": "images/63ca51ad-acc5-465f-8cc3-cfdc136a2b55.webp"
+  },
+  {
     "id": "7a31a037-43a6-4e33-a038-2f45fa8a6577",
     "name": "板栗焖鸡",
     "description": "稍老的土鸡与板栗、香菇一同焖至酱香入味，鸡肉紧实，板栗粉糯，是秋冬餐桌上的温暖硬菜。",
@@ -129,34 +750,6 @@
       "含猪肉"
     ],
     "image": "images/d19070ee-043a-4651-9c1b-7e25a5569144.webp"
-  },
-  {
-    "id": "63ca51ad-acc5-465f-8cc3-cfdc136a2b55",
-    "name": "家烧梭子蟹",
-    "description": "梭子蟹切件后裹薄粉煎香，与五花肉、蛋液和葱姜蒜同烧，酱汁浓鲜，是江浙沿海风味家常菜。",
-    "category": "荤菜",
-    "cuisine_region": "中国",
-    "cuisine_detail": "江浙家常",
-    "flavor_tags": [
-      "咸鲜",
-      "浓香",
-      "鲜"
-    ],
-    "calories_per_100g": 176,
-    "prep_minutes": 22,
-    "cook_minutes": 20,
-    "difficulty": "家常",
-    "cost_band": "约 70-120 元",
-    "allergens": [
-      "甲壳类",
-      "鸡蛋"
-    ],
-    "dietary_tags": [
-      "高蛋白",
-      "海鲜",
-      "含猪肉"
-    ],
-    "image": "images/63ca51ad-acc5-465f-8cc3-cfdc136a2b55.webp"
   },
   {
     "id": "2d4ba285-f0bd-47ec-9f4b-f6c11460abb6",
